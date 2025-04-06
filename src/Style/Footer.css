@@ -1,0 +1,109 @@
+/* Footer Styles */
+.footer {
+    background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+  }
+  
+  .footer-brand .icon-wrapper {
+    transition: all 0.3s ease;
+  }
+  
+  .footer-brand:hover .icon-wrapper {
+    transform: rotate(15deg);
+    background: rgba(0, 180, 219, 0.2) !important;
+  }
+  
+  .footer-heading {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  
+  .footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background: #00b4db;
+    transition: all 0.3s ease;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-heading.text-center.text-md-start::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  
+  .social-icon {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-icon:hover {
+    background: #2f5c76;
+    transform: translateY(-3px) scale(1.1);
+  }
+  
+  .hover-primary {
+    transition: all 0.2s ease;
+  }
+  
+  .hover-primary:hover {
+    color: #00b4db !important;
+    padding-left: 5px;
+  }
+  
+  .feature-list li {
+    transition: all 0.3s ease;
+  }
+  
+  .feature-list li:hover {
+    color: #00b4db;
+  }
+  
+  .developer-info a {
+    transition: all 0.3s ease;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 767.98px) {
+    .footer [class^="col-"] {
+      margin-bottom: 2rem;
+    }
+    
+    .footer-heading::after {
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+    }
+    
+    .footer-links,
+    .feature-list,
+    .developer-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .footer {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+    
+    .footer-brand {
+      flex-direction: column;
+    }
+    
+    .icon-wrapper {
+      margin-right: 0 !important;
+      margin-bottom: 1rem !important;
+    }
+  }

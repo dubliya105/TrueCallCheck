@@ -1,0 +1,138 @@
+/* Sophisticated Gradient Background */
+.bg-sleek {
+    background: linear-gradient(135deg, #1a2a6c, #2a52be, #00b4db);
+    background-size: 200% 200%;
+    animation: smooth-gradient 12s ease infinite;
+  }
+  
+  @keyframes smooth-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Elegant Glass Panel */
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  }
+  
+  /* Icon Container */
+  .icon-container {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Refined Button Styles */
+  .btn-primary {
+    background: linear-gradient(to right, #1a2a6c, #2a52be);
+    border: none;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(to right, #2a52be, #1a2a6c);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Pulse Effect */
+  .btn-pulse:hover {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  
+  /* Glow Effect on Input */
+  .glow-on-hover {
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-on-hover:focus-within {
+    box-shadow: 0 0 10px rgba(42, 82, 190, 0.5);
+  }
+  
+  /* Hover Lift Effect */
+  .hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Modern Input Field */
+  .form-control {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 0 0.25rem rgba(42, 82, 190, 0.25);
+  }
+  
+  /* Result Card Styling */
+  .result-card {
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  
+  .result-card:hover {
+    transform: perspective(1000px) translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Progress Bar */
+  .progress {
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .progress-bar {
+    background: linear-gradient(to right, #00b4db, #2a52be);
+  }
+  
+  /* Verified Badge Animation */
+  .verified-badge {
+    animation: subtle-pulse 3s ease-in-out infinite;
+  }
+  
+  @keyframes subtle-pulse {
+    0% { opacity: 0.9; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.03); }
+    100% { opacity: 0.9; transform: scale(1); }
+  }
+  
+  /* Custom Border Radius */
+  .rounded-4 {
+    border-radius: 1.5rem !important;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .glass-panel {
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+    
+    .icon-container {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .card-body {
+      padding: 1.5rem !important;
+    }
+  }
