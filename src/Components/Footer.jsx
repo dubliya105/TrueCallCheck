@@ -4,6 +4,7 @@ import {
   FaMobileAlt, FaCheckCircle, FaLinkedin, FaTwitter
 } from "react-icons/fa";
 import '../Style/Footer.css';
+import { AiFillInstagram } from 'react-icons/ai';
 
 const Footer = ({ darkMode }) => {
   return (
@@ -29,12 +30,12 @@ const Footer = ({ darkMode }) => {
               <a href="https://t.me/TheAdvanceBots" target="_blank" rel="noopener noreferrer" className="social-icon">
                 <FaTelegram className="fs-5" />
               </a>
-              <a href="#" className="social-icon">
-                <FaLinkedin className="fs-5" />
+              <a href="https://instagram.com/ig.goutam_" target ="_blank"className="social-icon">
+                <AiFillInstagram className="fs-5" />
               </a>
-              <a href="#" className="social-icon">
+              {/* <a href="#" className="social-icon">
                 <FaTwitter className="fs-5" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -83,12 +84,12 @@ const Footer = ({ darkMode }) => {
                 </a>
               </li>
               <li className="mb-2 d-flex align-items-center justify-content-center justify-content-md-start">
-                <a href="#" className="text-decoration-none hover-primary">
+                <a href="https://github.com/GoutamHX" target="_blank" className="text-decoration-none hover-primary">
                   <FaCode className="me-2" /><span>Source Code</span>
                 </a>
               </li>
               <li className="mb-2 d-flex align-items-center justify-content-center justify-content-md-start">
-                <a href="#" className="text-decoration-none hover-primary">
+                <a href="https://t.me/MR_GOUTAM08" target="_blank" className="text-decoration-none hover-primary">
                   <FaInfoCircle className="me-2" /><span>Contact</span>
                 </a>
               </li>

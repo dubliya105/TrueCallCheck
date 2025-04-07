@@ -33,7 +33,7 @@ function Home({ darkMode, toggleDarkMode }) {
       setLoading(true);
       setShowResult(false);
       const result = await axios.get(
-        `http://localhost:8080/api/truecaller?q=+91${num}`
+        `https://true-call-check.vercel.app/truecaller?q=+91${num}`
       );
 
       if (result.status === 200) {
