@@ -1,0 +1,25 @@
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  
+  .logo-icon {
+    font-size: 1.5rem;
+    animation: bounce 1.8s infinite;
+  }
+  
+  .toggle-theme-btn {
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  .toggle-theme-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Optional fun bounce for logo */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
+  

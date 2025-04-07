@@ -1,138 +1,363 @@
-/* Sophisticated Gradient Background */
+/* ===== Font Import ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== Root Variables ===== */
+:root {
+  --primary: #6e3b8c;
+  --primary-light: #8e56b3;
+  --secondary: #2a52be;
+  --accent: #00b4db;
+  --text-dark: #2d3748;
+  --text-light: #f8f9fa;
+  --card-bg: rgba(255, 255, 255, 0.96);
+}
+
+/* ===== Base Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
 .bg-sleek {
-    background: linear-gradient(135deg, #1a2a6c, #2a52be, #00b4db);
-    background-size: 200% 200%;
-    animation: smooth-gradient 12s ease infinite;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  padding: 0.8rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+/* ===== Glass Card Panel ===== */
+.glass-panel {
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  border: none;
+  overflow: hidden;
+}
+
+/* ===== Icon Circle ===== */
+.icon-container {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  box-shadow: 0 4px 12px rgba(110, 59, 140, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Buttons ===== */
+.btn-primary {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  border: none;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 6px 12px rgba(110, 59, 140, 0.2);
+}
+
+/* ===== Input Focus Glow ===== */
+.glow-on-hover:focus-within {
+  box-shadow: 0 0 0 3px rgba(110, 59, 140, 0.15);
+  transition: box-shadow 0.2s ease;
+}
+
+/* ===== Result Card ===== */
+.result-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  animation: fadeSlideIn 0.4s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Data Items ===== */
+.data-item {
+  background: rgba(245, 247, 250, 0.8);
+  border-radius: 10px;
+  border-left: 3px solid var(--primary);
+  transition: all 0.3s ease;
+}
+
+.data-item:hover {
+  background: rgba(110, 59, 140, 0.1);
+  border-left: 3px solid var(--accent);
+}
+
+/* ===== Progress Bars ===== */
+.progress {
+  height: 6px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.progress-bar {
+  background: linear-gradient(to right, var(--primary), var(--accent));
+}
+
+/* ===== Dark Mode Styles ===== */
+.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.bg-dark-2 {
+  background: #1e1e1e;
+  border-color: #333;
+}
+
+.bg-dark-3 {
+  background: #2d2d2d;
+}
+
+.text-light-2 {
+  color: #b0b0b0;
+}
+
+.bg-purple-dark {
+  background: linear-gradient(135deg, #4a2a6b, #5d3a8a);
+}
+
+.btn-purple {
+  background: linear-gradient(to right, #5d3a8a, #3a4ba8);
+  color: white;
+}
+
+.text-purple {
+  color: #9c6ad6;
+}
+
+.dark-input .form-control,
+.dark-input .input-group-text {
+  background: #2d2d2d;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+/* ===== Animation ===== */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  @keyframes smooth-gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  /* Elegant Glass Panel */
+}
+
+/* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
   .glass-panel {
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    border-radius: 12px;
   }
-  
-  /* Icon Container */
+
   .icon-container {
-    width: 70px;
-    height: 70px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 60px;
+    height: 60px;
   }
-  
-  /* Refined Button Styles */
-  .btn-primary {
-    background: linear-gradient(to right, #1a2a6c, #2a52be);
-    border: none;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  .card-body {
+    padding: 1.5rem !important;
   }
-  
-  .btn-primary:hover {
-    background: linear-gradient(to right, #2a52be, #1a2a6c);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 576px) {
+  .data-item {
+    text-align: center;
+    padding: 1rem !important;
   }
-  
-  /* Button Pulse Effect */
-  .btn-pulse:hover {
-    animation: pulse 1s infinite;
-  }
-  
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-  }
-  
-  /* Glow Effect on Input */
-  .glow-on-hover {
-    transition: box-shadow 0.3s ease;
-  }
-  
-  .glow-on-hover:focus-within {
-    box-shadow: 0 0 10px rgba(42, 82, 190, 0.5);
-  }
-  
-  /* Hover Lift Effect */
-  .hover-lift {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .hover-lift:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Modern Input Field */
-  .form-control {
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-  }
-  
-  .form-control:focus {
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 0 0.25rem rgba(42, 82, 190, 0.25);
-  }
-  
-  /* Result Card Styling */
-  .result-card {
-    background: rgba(255, 255, 255, 0.95);
-    border: none;
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
-  
-  .result-card:hover {
-    transform: perspective(1000px) translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Progress Bar */
-  .progress {
-    height: 8px;
-    background: rgba(255, 255, 255, 0.2);
-  }
-  
-  .progress-bar {
-    background: linear-gradient(to right, #00b4db, #2a52be);
-  }
-  
-  /* Verified Badge Animation */
-  .verified-badge {
-    animation: subtle-pulse 3s ease-in-out infinite;
-  }
-  
-  @keyframes subtle-pulse {
-    0% { opacity: 0.9; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.03); }
-    100% { opacity: 0.9; transform: scale(1); }
-  }
-  
-  /* Custom Border Radius */
-  .rounded-4 {
-    border-radius: 1.5rem !important;
-  }
-  
-  /* Responsive Adjustments */
-  @media (max-width: 768px) {
-    .glass-panel {
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-    }
-    
-    .icon-container {
-      width: 60px;
-      height: 60px;
-    }
-    
-    .card-body {
-      padding: 1.5rem !important;
-    }
-  }
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1050;
+}
+
+/* Light Mode Styles */
+body.light-mode {
+  background-color: #f5f7fa;
+  color: #2d3748;
+}
+
+body.light-mode .bg-sleek {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+}
+
+body.light-mode .glass-panel {
+  background: rgba(255, 255, 255, 0.95);
+  color: #2d3748;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .bg-sleek {
+  background: #1e1e1e;
+}
+
+body.dark-mode .glass-panel {
+  background: rgba(40, 40, 40, 0.9);
+  color: #e0e0e0;
+}
+
+body.dark-mode .data-item {
+  background: rgba(60, 60, 60, 0.8);
+  border-left-color: #9c6ad6;
+}
+
+body.dark-mode .btn-primary {
+  background: linear-gradient(to right, #5d3a8a, #3a4ba8);
+}
+
+body.dark-mode .progress {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .progress-bar {
+  background: linear-gradient(to right, #6e3b8c, #00b4db);
+}
+
+/* Enhancing result card visuals */
+.result-card .card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .result-card .card-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* For subtle fade-in of fields */
+.fade-in {
+  animation: fadeSlideIn 0.5s ease;
+}
+
+/* Badge style override */
+.result-card .badge {
+  font-size: 0.75rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.5rem;
+}
+
+/* Label (like "Phone Number", "Carrier") style consistency */
+.result-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+body.dark-mode .result-label {
+  color: #b0b0b0;
+}
+/* --- Result Card Styling --- */
+.result-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 16px;
+  padding: 1rem 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .result-card {
+  background: rgba(34, 34, 44, 0.9);
+  box-shadow: 0 0 20px rgba(155, 109, 233, 0.1);
+  border: 1px solid rgba(155, 109, 233, 0.1);
+}
+
+/* --- Section Title --- */
+.analysis-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+body.dark-mode .analysis-title {
+  color: #9c6ad6;
+}
+
+/* --- Data Item --- */
+.data-item {
+  background: rgba(245, 247, 250, 0.8);
+  border-left: 4px solid var(--primary);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode .data-item {
+  background: rgba(60, 60, 80, 0.85);
+  border-left: 4px solid #9c6ad6;
+}
+
+.data-item:hover {
+  transform: scale(1.02);
+  background: rgba(110, 59, 140, 0.08);
+}
+
+/* --- Field label + value --- */
+.result-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #6c757d;
+}
+
+body.dark-mode .result-label {
+  color: #bbb;
+}
+
+.result-value {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+body.dark-mode .result-value {
+  color: #e0e0e0;
+}
+
+/* --- Verified Badge --- */
+.verified-badge {
+  background-color: #28a745 !important;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 0.3rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* --- Smooth entrance --- */
+.fade-in {
+  animation: fadeSlideIn 0.4s ease-in-out;
+}
+
+/* --- Icons --- */
+.result-label svg {
+  opacity: 0.7;
+}

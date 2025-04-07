@@ -1,3 +1,10 @@
+:root {
+  --accent: #00b4db;
+  --primary: #6e3b8c;
+  --text-dark: #2d3748;
+  --text-light: #f8f9fa;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +42,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+:root {
+  --footer-bg: #f8f9fa;
+  --footer-text: #212529;
+  --footer-accent: #00b4db;
+  --footer-social-bg: rgba(0, 0, 0, 0.05);
+  --footer-border: rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode {
+  --footer-bg: linear-gradient(135deg, #2b2d42, #1e1e30);
+  --footer-text: #f8f9fa;
+  --footer-accent: #00b4db;
+  --footer-social-bg: rgba(255, 255, 255, 0.08);
+  --footer-border: rgba(255, 255, 255, 0.1);
 }
