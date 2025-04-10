@@ -72,10 +72,12 @@ This project is licensed under the [MIT License](https://github.com/goutamhx/Tru
 ---
 
 ### 📢 Join Our Community
-
+<div align="center">
 Stay updated with our latest tools, updates, and free resources!
 
 [![Telegram Channel](https://img.shields.io/badge/Join%20Our%20Telegram%20Channel-TheAdvanceBots-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/TheAdvanceBots)
+
+</div>
 
 💡 *Feedback, bug reports, or ideas are always welcome. Let’s make this project better together!*
 ## ⭐ Show Your Support
@@ -86,6 +88,6 @@ Stay updated with our latest tools, updates, and free resources!
 
 [![GitHub Stars](https://img.shields.io/badge/🌟_Star_the_Repo-181717?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
 [![Report Issues](https://img.shields.io/badge/🐛_Report_Issues-FF0000?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/issues)
-[![Share](https://img.shields.io/badge/📢_Share_Anywhere-FFA500?style=for-the-badge&logo=sharethis)](https://github.com/goutamhx/TrueCallCheck-Web)
+[![Share Anywhere](https://img.shields.io/badge/📢_Share_Anywhere-FFA500?style=for-the-badge&logo=sharethis)](https://github.com/goutamhx/TrueCallCheck-Web)
 
 </div>
