@@ -1,9 +1,10 @@
-# 📞 TrueCallCheck-Web
+# 📞 TrueCallCheck-Web - Advanced Caller Identification
 
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fgoutamhx.github.io%2FTrueCallCheck-Web%2F&style=flat-square)](https://goutamhx.github.io/TrueCallCheck-Web/)
-[![MIT License](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=flat-square)](LICENSE)
+![Project Banner](https://via.placeholder.com/1200x400/2d3748/ffffff?text=TrueCallCheck-Web)
+[![GitHub stars](https://img.shields.io/github/stars/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
+[![GitHub license](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=for-the-badge)](LICENSE)
 
-A simple and sleek web-based tool to **check unknown callers** before you pick up. Whether it’s a potential scam, spam, or just a missed call curiosity — **TrueCallCheck-Web** helps you make informed decisions, instantly.
+A powerful web application to identify unknown callers, block spam, and protect your privacy.
 
 🔗 **Live Demo**: [goutamhx.github.io/TrueCallCheck-Web](https://goutamhx.github.io/TrueCallCheck-Web/)
 
@@ -19,18 +20,36 @@ A simple and sleek web-based tool to **check unknown callers** before you pick u
 
 ---
 
-## 🖼️ Preview
-
-![App Screenshot](screenshot.png)  
-<sub>*Tip: Add your screenshot inside the repo and rename to `screenshot.png`.*</sub>
-
----
-
 ## 🚀 Getting Started
 
 To run locally, follow these simple steps:
 
 ### 1. Clone the Repo
-```bash
-git clone https://github.com/goutamhx/TrueCallCheck-Web.git
-cd TrueCallCheck-Web
+```git clone https://github.com/goutamhx/TrueCallCheck-Web.git ```
+```cd TrueCallCheck-Web ```
+### 2. Install Dependencies
+```npm install```
+### 3. Start Development Server
+```npm start```
+
+## 🛠️ Technologies Used
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat)
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. 🍴 Fork the repository  
+2. 🌿 Create a new branch:
+   ``` git checkout -b feature/your-feature-name ```
+3. ✍️ Make your changes
+
+4. ✅ Commit your changes:
+  ```git commit -m "Add some feature" ```
+5. 📤 Push to GitHub:
+  ```git push origin feature/your-feature-name```
