@@ -2,8 +2,13 @@
 
 ![Project Banner](https://github.com/user-attachments/assets/ba5a3f02-b225-49b9-8147-8dde385060e0)
 
+
 [![GitHub stars](https://img.shields.io/github/stars/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
 [![GitHub license](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/blob/main/LICENSE)
+
+## 🔍 About
+
+**TrueCallCheck-Web** is a lightweight and user-friendly web tool that helps you verify unknown phone numbers online. Inspired by caller ID apps, it provides basic insights into unknown callers without the need for app installation. Fast, simple, and accessible from any browser.
 
 A powerful web application to identify unknown callers, block spam, and protect your privacy.
 
