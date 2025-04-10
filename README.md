@@ -53,3 +53,6 @@ Contributions are welcome! Here's how you can help:
   ```git commit -m "Add some feature" ```
 5. 📤 Push to GitHub:
   ```git push origin feature/your-feature-name```
+## 📄 License
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) – feel free to use, modify, and distribute with proper credit.
