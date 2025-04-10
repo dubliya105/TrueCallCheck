@@ -55,4 +55,37 @@ Contributions are welcome! Here's how you can help:
   ```git push origin feature/your-feature-name```
 ## 📄 License
 
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/) – feel free to use, modify, and distribute with proper credit.
+This project is licensed under the [MIT License](https://github.com/goutamhx/TrueCallCheck-Web/blob/main/LICENSE) – feel free to use, modify, and distribute with proper credit.
+
+## 📬 Contact Us
+
+<div align="center">
+
+### Have questions or suggestions? We'd love to hear from you!
+
+[![Telegram](https://img.shields.io/badge/Telegram-%40MR__GOUTAM08-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/MR_GOUTAM08)
+[![GitHub](https://img.shields.io/badge/GitHub-%40goutamhx-181717?style=for-the-badge&logo=github)](https://github.com/goutamhx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Goutam%20Hx-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
+
+</div>
+
+---
+
+### 📢 Join Our Community
+
+Stay updated with our latest tools, updates, and free resources!
+
+[![Telegram Channel](https://img.shields.io/badge/Join%20Our%20Telegram%20Channel-TheAdvanceBots-26A5E4?style=for-the-badge&logo=telegram)](https://t.me/TheAdvanceBots)
+
+💡 *Feedback, bug reports, or ideas are always welcome. Let’s make this project better together!*
+## ⭐ Show Your Support
+
+<div align="center">
+
+### Enjoying this project? Here's how you can support:
+
+[![GitHub Stars](https://img.shields.io/badge/🌟_Star_the_Repo-181717?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
+[![Report Issues](https://img.shields.io/badge/🐛_Report_Issues-FF0000?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/issues)
+[![Share](https://img.shields.io/badge/📢_Share_with_Friends-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20project%20by%20%40goutamhx%20-%20TrueCallCheck-Web!%20%F0%9F%94%A5%20&url=https%3A%2F%2Fgithub.com%2Fgoutamhx%2FTrueCallCheck-Web)
+
+</div>
