@@ -2,7 +2,7 @@
 
 ![Project Banner](https://via.placeholder.com/1200x400/2d3748/ffffff?text=TrueCallCheck-Web)
 [![GitHub stars](https://img.shields.io/github/stars/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
-[![GitHub license](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=for-the-badge)](LICENSE)
+[![GitHub license](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/blob/main/LICENSE)
 
 A powerful web application to identify unknown callers, block spam, and protect your privacy.
 
@@ -86,6 +86,6 @@ Stay updated with our latest tools, updates, and free resources!
 
 [![GitHub Stars](https://img.shields.io/badge/🌟_Star_the_Repo-181717?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
 [![Report Issues](https://img.shields.io/badge/🐛_Report_Issues-FF0000?style=for-the-badge&logo=github)](https://github.com/goutamhx/TrueCallCheck-Web/issues)
-[![Share](https://img.shields.io/badge/📢_Share_with_Friends-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20project%20by%20%40goutamhx%20-%20TrueCallCheck-Web!%20%F0%9F%94%A5%20&url=https%3A%2F%2Fgithub.com%2Fgoutamhx%2FTrueCallCheck-Web)
+[![Share](https://img.shields.io/badge/📢_Share_Anywhere-FFA500?style=for-the-badge&logo=sharethis)](https://github.com/goutamhx/TrueCallCheck-Web)
 
 </div>
