@@ -1,6 +1,7 @@
 # 📞 TrueCallCheck-Web - Advanced Caller Identification
 
-![Project Banner](https://via.placeholder.com/1200x400/2d3748/ffffff?text=TrueCallCheck-Web)
+![Project Banner](https://github.com/user-attachments/assets/ba5a3f02-b225-49b9-8147-8dde385060e0)
+
 [![GitHub stars](https://img.shields.io/github/stars/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/stargazers)
 [![GitHub license](https://img.shields.io/github/license/goutamhx/TrueCallCheck-Web?style=for-the-badge)](https://github.com/goutamhx/TrueCallCheck-Web/blob/main/LICENSE)
 
