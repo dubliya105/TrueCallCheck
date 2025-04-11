@@ -81,11 +81,11 @@ function Home({ darkMode, toggleDarkMode }) {
 
                   {/* Input Section */}
                   <div className="mb-4">
-                    <div className="input-group input-group-lg mb-3 glow-on-hover">
-                      <span className="input-group-text bg-white border-end-0 fw-bold">+91</span>
+                    <div className=" mb-3 d-flex justify-content-center">
+                      <span className="input-group-text bg-white border-end-0 fw-bold me-2">+91</span>
                       <input
                         type="tel"
-                        className="form-control border-start-0"
+                        className="input input-group-text text-start me-2"
                         placeholder="Enter 10-digit number"
                         value={num}
                         maxLength={10}

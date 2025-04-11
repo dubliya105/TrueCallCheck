@@ -68,10 +68,10 @@ body {
 }
 
 /* ===== Input Focus Glow ===== */
-.glow-on-hover:focus-within {
+/* .glow-on-hover:focus-within {
   box-shadow: 0 0 0 3px rgba(110, 59, 140, 0.15);
   transition: box-shadow 0.2s ease;
-}
+} */
 
 /* ===== Result Card ===== */
 .result-card {
@@ -374,4 +374,40 @@ body.dark-mode .result-value {
 }
 .card-body-result{
   background-color:#58afdf40 !important;
+}
+
+/* =====Number Search Input ===*/
+.input {
+  /* max-width: 100%; */
+  /* background-color: #1a1a1a; */
+  /* border: none; */
+  /* background: #2d2d2d; */
+  /* border-color: #444; */
+  /* color: #e0e0e0; */
+  padding: 10px;
+  /* border-radius: 10px; */
+  outline: none;
+  /* color: white; */
+}
+
+.input:focus {
+  animation: rotateShadow 2s infinite linear;
+}
+
+@keyframes rotateShadow {
+  0% {
+    box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+  }
+  25% {
+    box-shadow: -2px 2px 8px 1px #aa00ff, 2px -2px 8px 1px #3700ff;
+  }
+  50% {
+    box-shadow: 2px 2px 8px 1px #aa00ff, -2px -2px 8px 1px #3700ff;
+  }
+  75% {
+    box-shadow: 2px -2px 8px 1px #aa00ff, -2px 2px 8px 1px #3700ff;
+  }
+  100% {
+    box-shadow: -2px -2px 8px 1px #aa00ff, 2px 2px 8px 1px #3700ff;
+  }
 }
