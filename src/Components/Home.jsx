@@ -115,8 +115,8 @@ function Home({ darkMode, toggleDarkMode }) {
                   {/* Results Section */}
                   {showResult && (
                     <div className="mt-5">
-                      <div className={` border-0 `}>
-                        <div className={`card-header ${darkMode ? 'text-light bg-dark border-secondary' : 'bg-white border-bottom'} pb-3`}>
+                      <div className={`border-0 `}>
+                        <div className={` ${darkMode ? 'text-light border-secondary' : 'bg-white border-bottom'} pb-3`}>
                           <div className="d-flex justify-content-between align-items-center">
                             <h3 className="h5 mb-0">
                               <FaFileAlt className="me-2 text-primary" />
