@@ -361,3 +361,13 @@ body.dark-mode .result-value {
 .result-label svg {
   opacity: 0.7;
 }
+.text-h6{
+  color: #58c4dc !important;
+}
+
+.card-text{
+  color:#3c4f61 !important;
+}
+.card-body-result{
+  background-color:#58afdf40 !important;
+}
