@@ -133,8 +133,8 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Registered Name */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
-                <FaUserCircle className="me-1" /> Registered Name
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
+            <FaUserCircle className="me-1" /> Registered Name
               </h6>
               <p className="fs-5 fw-semibold mb-0">{name}</p>
             </div>
@@ -143,8 +143,8 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Phone Number */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
-                <FaPhone className="me-1" /> Phone Number
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
+            <FaPhone className="me-1" /> Phone Number
               </h6>
               <p className="mb-0 fw-bold">{localFormat || `+91 ${num}`}</p>
             </div>
@@ -153,8 +153,8 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Carrier */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
-                <FaSimCard className="me-1" /> Carrier
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
+            <FaSimCard className="me-1" /> Carrier
               </h6>
               <p className="mb-0 fw-bold">{carrier}</p>
             </div>
@@ -163,7 +163,7 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Location */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
+              <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
                 <FaMapMarkerAlt className="me-1" /> Location
               </h6>
               <p className="mb-0 fw-bold">{location}</p>
@@ -173,8 +173,8 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Country */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
-                <FaGlobe className="me-1" /> Country
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
+            <FaGlobe className="me-1" /> Country
               </h6>
               <p className="mb-0 fw-bold">{country}</p>
             </div>
@@ -183,16 +183,17 @@ function Home({ darkMode, toggleDarkMode }) {
           {/* Timezone */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
-                <FaClock className="me-1" /> Timezone
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
+            <FaClock className="me-1" /> Timezone
               </h6>
               <p className="mb-0 fw-bold">{timezones[0]}</p>
             </div>
           </div>
+          
           {/* Devloper */}
           <div className="col-md-6">
             <div className="border rounded p-3 bg-light bg-opacity-25">
-              <h6 className="text-muted small mb-1 d-flex align-items-center">
+            <h6 className={`small mb-1 d-flex align-items-center ${darkMode? 'text-light':'text-muted'}`}>
                 <AiFillFire className="me-1" /> Devloper
               </h6>
               <p className="mb-0 fw-bold">{developer}</p>
